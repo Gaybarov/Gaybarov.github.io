@@ -1,0 +1,921 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+
+
+
+/* ICON STYLES - ICON FROM: http://fontastic.me/
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+ 
+
+
+ 
+}
+
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+.icon-up-open-big:hover:after {
+    color: white;   
+}
+
+.scroll-icon {
+	
+   
+   margin-left: 12%;
+  bottom: 11.1111111%;
+  padding: 0 10px;
+    
+}
+
+
+
+
+.btn {		//Задание общего стиля для кнопки
+	 font-size: 4.25em;
+	width: 13.95%;
+	max-width: 13.95%;
+   height: 40px;
+	border-color:#c2e254 #9bb838 #9bb838 #c2e254;
+	border-style:solid;
+	border-width:1px;
+	background:#7CFC00;
+	cursor:pointer;
+
+	}
+	.btn:hover {	//Стиль кнопки при новедении на него курсора
+	border-color:#FFCC66 #FFFF99 #FFFF99 #FFCC66;
+	border-style:solid;
+	border-width:2px;
+	background:#FFFF99;
+	}
+	.btn:focus {	//Стиль кнопки, когда она в фокусе
+	background:#ddd;
+	border-color:#ddd #333 #333 #ddd;
+	border-style:solid;
+	border-width:1px;
+	}
+	
+
+	
+/*Тряска иконок партнёров*/
+	
+	.my-el2 {
+border: 0px solid rebeccapurple;
+   background: white;
+   width: 18.06%;
+   height: 14.58%;
+   text-align:center;
+   font-size: 1.5em;
+   font-family: Arial;
+   font-weight: bold;
+   -webkit-animation-duration: 1s;
+   -moz-animation-duration: 1s;
+   -o-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-timing-function: ease;
+   -moz-animation-timing-function: ease;
+   -o-animation-timing-function: ease;
+   animation-timing-function: ease; 
+}
+ 
+.my-el2:hover {
+  -webkit-animation-name: Tada;
+  -moz-animation-name: Tada;
+  -o-animation-name: Tada;
+  animation-name: Tada;
+}
+ 
+@-webkit-keyframes Tada {
+    0% {
+        -webkit-transform:scale(1)
+    }
+    10%, 20% {
+        -webkit-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -webkit-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -webkit-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -webkit-transform:scale(1) rotate(0)
+    }
+}
+@-moz-keyframes Tada {
+    0% {
+        -moz-transform:scale(1)
+    }
+    10%,20% {
+        -moz-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -moz-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -moz-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -moz-transform:scale(1) rotate(0)
+    }
+}
+@-o-keyframes Tada {
+    0% {
+        -o-transform:scale(1)
+    }
+    10%,20% {
+        -o-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -o-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -o-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -o-transform:scale(1) rotate(0)
+    }
+}
+@keyframes Tada {
+    0% {
+        transform:scale(1)
+    }
+    10%, 20% {
+        transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        transform:scale(1) rotate(0)
+    }
+}
+	
+	
+/* Для формы обратной связи */
+
+
+#inline {
+
+    width: 55%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 5px 5px;
+}
+.txt { 
+    display: inline-block;
+    color: #676767;
+    width: 32.218888888%;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    padding: 1px 1px;
+    font-size: 18px!important;
+    line-height: 1.8em;
+}
+
+.txt:focus, .txtarea:focus {
+ border-style: solid; 
+ border-color: #bababa; 
+ color: #444; 
+ }
+input.error, textarea.error { 
+    border-color: #973d3d; 
+    border-style: solid; 
+    background: #f0bebe; 
+    color: #a35959; 
+    }
+input.error:focus, textarea.error:focus { 
+    border-color: #973d3d; 
+    color: #a35959;
+     }
+#send { 
+margin: 1px ;
+    color:#000000;
+    display: block;
+    cursor: pointer;
+    padding: 8px 8px;
+    font-size: 1 em;
+    border: solid 1px #F9F9F9;
+    border-radius: 2px;
+    background: 	#7FFF00;
+    width: 32.9305555%;
+    margin-bottom: 6px;
+	 margin-left: 33.5%;
+}
+#send:hover {
+    background: #FFFF99;
+}
+/* Форма обратной связи */
+
+
+
+
+/* HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.l-left {
+    float: left;
+}
+
+.l-right {
+    float: right;
+}
+
+.end {
+    margin-top: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    opacity: 0;
+    -webkit-transform: translateY(300px);
+        -ms-transform: translateY(300px);
+            transform: translateY(300px);
+    -webkit-transition: opacity, -webkit-transform 1s;
+            transition: opacity, transform 1s;
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+}
+
+
+
+/* RESET-GENERAL STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:  Arial;
+  
+  
+}
+
+html {
+    font-size: 92.5%;
+}
+
+body {
+    color: black;
+    letter-spacing: .13em;
+}
+
+#wrapper {
+  width: 1440px;
+ 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+img{
+	
+	
+}
+
+
+
+/* NAV STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header-top {
+    background: rgba(0, 47, 77, .3);
+    height: 68px;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+    box-sizing: border-box;
+}
+
+h1 {
+	
+    line-height: 153%;
+    height: 20%;
+}
+
+h1 a {
+    display: block;
+    padding: 0 10px;
+}
+
+.toggle-menu {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+.toggle-menu i {
+    position: absolute;
+    display: block;
+    height: 2px;
+    background: white;
+    width: 30px;
+    left: 10px;
+    -webkit-transition: all .3s;
+            transition: all .3s;
+}
+
+.toggle-menu i:nth-child(1) {
+    top: 16px;
+}
+
+.toggle-menu i:nth-child(2) {
+    top: 24px;
+}
+
+.toggle-menu i:nth-child(3) {
+    top: 32px;
+}
+
+.open-menu i:nth-child(1) {
+    top: 25px;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+}
+
+.open-menu i:nth-child(2) {
+    background: transparent;
+}
+
+.open-menu i:nth-child(3) {
+    top: 25px;
+    -webkit-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+}
+
+nav {
+    height: 0;
+    opacity: 0;
+  box-sizing: border-box;
+    background: rgba(0, 47, 77, .25);
+    position: fixed;
+    top: 70px;
+    width: 100%;
+  -webkit-transition: all 3s;
+          transition: all 3s;
+}
+
+.open-menu ~ nav {
+    opacity: 1;
+    padding: 80px 0;
+    z-index: 15;
+    height: calc(90vh - 70px);
+}
+
+nav ul {
+    padding: 0 9px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+nav li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+nav li a {
+    font-size: 2em;
+    display: block;
+    padding: 40px;
+    text-align: center;
+    -webkit-transition: background .3s;
+            transition: background .3s;
+}
+
+
+nav li:nth-child(odd) a,
+body #menu li:nth-child(5) a {
+    background: #962D3E;
+}
+
+nav li:nth-child(even) a {
+    background: #aa3346;
+}
+
+nav li:nth-child(odd) a:hover {
+    background: #9e2f41;
+}
+
+nav li:nth-child(even) a:hover {
+    background: #c53c52;
+}
+
+nav li.active a,
+body #menu li:last-child a {
+  background: #453659;
+}
+  
+
+
+/* SECTION STYLES - fullPage.js 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+section:nth-of-type(1) {
+
+width:100%;
+
+background: url('image/QW.jpg') no-repeat center / cover;
+
+}
+
+section:nth-of-type(3) {
+width:100%;
+
+background: url('image/er.jpg') no-repeat center / cover;
+
+}
+
+section:nth-of-type(6) {
+width:100%;
+
+background: url('image/whats.jpg') no-repeat center / cover;
+
+}
+
+
+section:nth-of-type(9) {
+
+width:100%;
+background: url('image/tetr.jpg') no-repeat center / cover;
+
+}
+
+section:nth-of-type(10) {
+width:100%;
+
+background: url('image/we.jpg') no-repeat center / cover;
+
+}
+
+section { 
+   /* text-align: center;
+  /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
+}
+
+h1 {
+	
+  text-align: center;
+    font-size: 2em;
+    margin-bottom: 0%;
+}
+
+
+h2 {
+ color: #FFFFFF;
+ margin-left: 12%;
+ 
+    font-size: 2.7em;
+    margin-bottom: 1%;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.3em;
+	text-align: center;
+}
+
+p {
+	 font-size: 1.1em;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 8%;
+   margin-left: 12%;
+    margin-right: 0;
+	text-transform: uppercase;
+} 
+
+
+
+
+.vcentre {
+	text-align: center;
+}
+
+
+.tryd {
+
+  margin-top: 3.7em;
+}
+
+
+table {
+	
+margin: 1% 11.9722222% 2.708333333%; /* Отступы вокруг элемента */
+ 
+ padding: 0.4861111111% 0.694444444% 0.41666666666% 0.41666666666%;   
+	
+}
+
+
+ table.center {
+	 
+	margin-left:auto; margin-right:auto;
+	
+	}	
+
+hr  {
+	 
+	margin-left:auto; margin-right:auto;
+	
+	}	
+
+.beliy {
+	 color: black;
+	
+}
+/* Классы картинок для экрана с разрешением 320px----- */ 
+.zxc {	}
+
+
+/* SLIDENAV STYLES - fullPage.js 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+    background: white;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid #24221F;
+}
+
+
+
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 1297px) {
+    nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+	
+	
+    nav li {
+        margin-top: 1px;
+    }
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+  
+  .scroll-icon {
+    display: none;
+  }
+
+
+.btn {	
+	width: 15.15%;
+	max-width: 15.15%;
+	}
+	
+#inline {
+
+    width: 60%;
+}
+.txt { 
+    width: 31.998888888%;
+}
+#send { 
+    width: 32.9305555%;
+	 margin-left: 33.5%;
+}
+	
+}
+
+
+@media screen and (max-width: 1024px) {
+
+ nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+
+	
+    nav li {
+        margin-top: 1px;
+    }
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+  
+  .scroll-icon {
+    display: none;
+  }
+
+.btn {	
+	width: 16.15%;
+	max-width: 16.15%;
+	}
+
+	#inline {
+
+    width: 70%;
+}
+.txt { 
+    width: 31.998888888%;
+}
+#send { 
+    width: 32.9305555%;
+	 margin-left: 33.5%;
+}
+
+ 
+ @media screen and (max-width: 936px) {
+
+ nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+
+	
+    nav li {
+        margin-top: 1px;
+    }
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+  
+  .scroll-icon {
+    display: none;
+  }
+
+	h1 {
+	
+    line-height: 123%;
+    height: 20%;
+}
+
+.btn {	
+	width: 19.15%;
+	max-width: 19.15%;
+	}
+
+	#inline {
+
+    width: 80%;
+}
+.txt { 
+    width: 31.998888888%;
+}
+#send { 
+    width: 32.9305555%;
+	 margin-left: 33.5%;
+} 
+ 
+ 
+
+ @media screen and (max-width: 769px) {
+
+ nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+
+	
+    nav li {
+        margin-top: 1px;
+    }
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+  
+  .scroll-icon {
+    display: none;
+  }
+
+	h1 {
+	
+    line-height: 109%;
+    height: 20%;
+}
+
+.btn {	
+	width: 25.15%;
+	max-width: 25.15%;
+	}
+
+	#inline {
+
+    width: 85%;
+}
+.txt { 
+    width: 31.398888888%;
+}
+#send { 
+    width: 32.9305555%;
+	 margin-left: 33.5%;
+} 
+ 
+	
+ 
+ @media screen and (max-width: 488px) {
+
+ html {
+    font-size: 94%;
+  }
+ 
+ nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+
+	
+    nav li {
+        margin-top: 1px;
+    }
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+  
+  .scroll-icon {
+    display: none;
+  }
+
+	h1 {
+	
+    line-height: 106%;
+    height: 20%;
+}
+
+.btn {	
+	width: 77.15%;
+	max-width: 77.15%;
+	}
+
+	#inline {
+
+    width: 85%;
+}
+.txt { 
+    width: 31.398888888%;
+}
+#send { 
+    width: 32.9305555%;
+	 margin-left: 33.5%;
+} 
+ 
+ 
+ 
+ @media screen and (max-width: 322px) {
+
+ html {
+    font-size: 70%;
+  }
+  
+  h1 {
+	    font-size: 1.7em;
+		line-height: 106%;
+    height: 15%;
+  }
+  
+    h2 {
+	    font-size: 2.3em;
+  }
+  
+    p {
+	    font-size: 1.1em;
+  }
+  
+  
+.zxc {
+	width: 100%;
+}
+
+ 
+ nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+
+	
+    nav li {
+        margin-top: 1px;
+    }
+  
+  nav li a {
+    font-size: 1.5em;
+  }
+  
+  .scroll-icon {
+    display: none;
+  }
+
+  
+
+
+.btn {	
+	width: 77.15%;
+	max-width: 77.15%;
+	}
+
+	#inline {
+
+    width: 95%;
+}
+.txt { 
+    width: 99.898888888%;
+}
+#send { 
+    width: 82.9305555%;
+	 margin-left: 8.5%;
+} 
+  
+ 
+ 
+ 
+ 
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+  
+h1 {
+	
+	
+}
+  
+   .btn {		//Задание общего стиля для кнопки
+	 font-size: 6.25em;
+	width: 25.75%;
+	max-width: 25.75%;
+ height: 34%;}
+  
+  .open-menu ~ nav {
+        padding: 20px 0;
+    }
+
+    nav li a {
+        padding: 3px;
+    }
+}
