@@ -64,103 +64,6 @@
 	
 
 	
-/*Тряска иконок партнёров*/
-	
-	.my-el2 {
-border: 0px solid rebeccapurple;
-   background: white;
-   width: 18.06%;
-   height: 14.58%;
-   text-align:center;
-   font-size: 1.5em;
-   font-family: Arial;
-   font-weight: bold;
-   -webkit-animation-duration: 1s;
-   -moz-animation-duration: 1s;
-   -o-animation-duration: 1s;
-   animation-duration: 1s;
-   -webkit-animation-timing-function: ease;
-   -moz-animation-timing-function: ease;
-   -o-animation-timing-function: ease;
-   animation-timing-function: ease; 
-}
- 
-.my-el2:hover {
-  -webkit-animation-name: Tada;
-  -moz-animation-name: Tada;
-  -o-animation-name: Tada;
-  animation-name: Tada;
-}
- 
-@-webkit-keyframes Tada {
-    0% {
-        -webkit-transform:scale(1)
-    }
-    10%, 20% {
-        -webkit-transform:scale(0.9) rotate(-3deg)
-    }
-    30%, 50%, 70%, 90% {
-        -webkit-transform:scale(1.1) rotate(3deg)
-    }
-    40%, 60%, 80% {
-        -webkit-transform:scale(1.1) rotate(-3deg)
-    }
-    100% {
-        -webkit-transform:scale(1) rotate(0)
-    }
-}
-@-moz-keyframes Tada {
-    0% {
-        -moz-transform:scale(1)
-    }
-    10%,20% {
-        -moz-transform:scale(0.9) rotate(-3deg)
-    }
-    30%, 50%, 70%, 90% {
-        -moz-transform:scale(1.1) rotate(3deg)
-    }
-    40%, 60%, 80% {
-        -moz-transform:scale(1.1) rotate(-3deg)
-    }
-    100% {
-        -moz-transform:scale(1) rotate(0)
-    }
-}
-@-o-keyframes Tada {
-    0% {
-        -o-transform:scale(1)
-    }
-    10%,20% {
-        -o-transform:scale(0.9) rotate(-3deg)
-    }
-    30%, 50%, 70%, 90% {
-        -o-transform:scale(1.1) rotate(3deg)
-    }
-    40%, 60%, 80% {
-        -o-transform:scale(1.1) rotate(-3deg)
-    }
-    100% {
-        -o-transform:scale(1) rotate(0)
-    }
-}
-@keyframes Tada {
-    0% {
-        transform:scale(1)
-    }
-    10%, 20% {
-        transform:scale(0.9) rotate(-3deg)
-    }
-    30%, 50%, 70%, 90% {
-        transform:scale(1.1) rotate(3deg)
-    }
-    40%, 60%, 80% {
-        transform:scale(1.1) rotate(-3deg)
-    }
-    100% {
-        transform:scale(1) rotate(0)
-    }
-}
-	
 	
 /* Для формы обратной связи */
 
@@ -198,7 +101,7 @@ input.error:focus, textarea.error:focus {
     border-color: #973d3d; 
     color: #a35959;
      }
-#send { 
+.submit { 
 margin: 1px ;
     color:#000000;
     display: block;
@@ -212,8 +115,12 @@ margin: 1px ;
     margin-bottom: 6px;
 	 margin-left: 33.5%;
 }
-#send:hover {
+.submit:hover {
     background: #FFFF99;
+}
+
+input.hidden{
+   display: none;
 }
 /* Форма обратной связи */
 
@@ -622,7 +529,7 @@ hr  {
 .txt { 
     width: 31.998888888%;
 }
-#send { 
+.submit { 
     width: 32.9305555%;
 	 margin-left: 33.5%;
 }
@@ -666,7 +573,7 @@ hr  {
 .txt { 
     width: 31.998888888%;
 }
-#send { 
+.submit  { 
     width: 32.9305555%;
 	 margin-left: 33.5%;
 }
@@ -714,7 +621,7 @@ hr  {
 .txt { 
     width: 31.998888888%;
 }
-#send { 
+.submit  { 
     width: 32.9305555%;
 	 margin-left: 33.5%;
 } 
@@ -763,7 +670,7 @@ hr  {
 .txt { 
     width: 31.398888888%;
 }
-#send { 
+.submit  { 
     width: 32.9305555%;
 	 margin-left: 33.5%;
 } 
@@ -816,7 +723,7 @@ hr  {
 .txt { 
     width: 31.398888888%;
 }
-#send { 
+.submit  { 
     width: 32.9305555%;
 	 margin-left: 33.5%;
 } 
@@ -886,7 +793,7 @@ hr  {
 .txt { 
     width: 99.898888888%;
 }
-#send { 
+.submit  { 
     width: 82.9305555%;
 	 margin-left: 8.5%;
 } 
