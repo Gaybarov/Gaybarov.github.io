@@ -662,6 +662,14 @@ hr  {
 	
 	
 
+nav li a {
+    font-size: 1.5em;
+    display: block;
+    padding: 28px;
+    text-align: center;
+    -webkit-transition: background .3s;
+            transition: background .3s;
+}
 	
     nav li {
         margin-top: 1px;
@@ -703,10 +711,11 @@ hr  {
  @media screen and (max-width: 488px) {
 
  html {
-    font-size: 94%;
+    font-size: 64%;
   }
  
  nav ul {
+	 
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -714,15 +723,19 @@ hr  {
                 flex-direction: column;
     }
 
-
+nav li a {
+    font-size: 1.5em;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition: background .3s;
+            transition: background .3s;
+}
 	
     nav li {
         margin-top: 1px;
     }
   
-  nav li a {
-    font-size: 1.5em;
-  }
   
   .scroll-icon {
     display: none;
@@ -732,6 +745,7 @@ hr  {
 	
     line-height: 106%;
     height: 20%;
+	font-size: 1.8em;
 }
 
 .btn {	
@@ -751,6 +765,8 @@ hr  {
 	 margin-left: 33.5%;
 } 
  
+ 
+
  
  
  @media screen and (max-width: 322px) {
