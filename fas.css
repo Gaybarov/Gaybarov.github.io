@@ -363,13 +363,34 @@ background: url('image/er.jpg') no-repeat center / cover;
 
 }
 
-section:nth-of-type(6) {
+section:nth-of-type(4) {
+width:100%;
+
+background: url('image/konsss.jpg') no-repeat center / cover;
+
+}
+
+section:nth-of-type(5) {
 width:100%;
 
 background: url('image/whats.jpg') no-repeat center / cover;
 
 }
 
+section:nth-of-type(6) {
+width:100%;
+
+background: url('image/bud.jpg') no-repeat center / cover;
+
+}
+
+
+section:nth-of-type(7) {
+width:100%;
+
+background: url('image/dizafon.jpg') no-repeat center / cover;
+
+}
 
 section:nth-of-type(9) {
 
@@ -638,6 +659,8 @@ hr  {
                 flex-direction: column;
     }
 
+	
+	
 
 	
     nav li {
