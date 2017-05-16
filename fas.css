@@ -711,7 +711,7 @@ nav li a {
  @media screen and (max-width: 488px) {
 
  html {
-    font-size: 64%;
+    font-size: 53%;
   }
  
  nav ul {
@@ -744,8 +744,8 @@ nav li a {
 	h1 {
 	
     line-height: 106%;
-    height: 20%;
-	font-size: 1.8em;
+    height: 19%;
+	font-size: 1.6em;
 }
 
 .btn {	
