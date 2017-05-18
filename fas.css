@@ -283,7 +283,7 @@ nav {
   box-sizing: border-box;
     background: rgba(0, 47, 77, .25);
     position: fixed;
-    top: 70px;
+    top: 40px;
     width: 100%;
   -webkit-transition: all 3s;
           transition: all 3s;
@@ -392,10 +392,16 @@ background: url('image/dizafon.jpg') no-repeat center / cover;
 
 }
 
+section:nth-of-type(8) {
+
+width:100%;
+background: url('image/fona.jpg') no-repeat center / cover;
+}
+
 section:nth-of-type(9) {
 
 width:100%;
-background: url('image/tetr.jpg') no-repeat center / cover;
+background: url('image/belyy.jpg') no-repeat center / cover;
 
 }
 
@@ -443,6 +449,21 @@ p {
 	text-transform: uppercase;
 } 
 
+
+
+
+
+.radius {
+    background: fff; /* Цвет фона */
+
+    border: 1px solid black; /* Параметры рамки */
+    padding: 20px; /* Поля вокруг текста */
+    margin-bottom: 0px; /* Отступ снизу */
+	width:40%;
+	height:28%; 
+	 font-size: 1.1em;
+	 line-height: 24px;
+   }
 
 
 
@@ -599,6 +620,18 @@ hr  {
 	 margin-left: 33.5%;
 }
 
+.radius {
+    background: fff; /* Цвет фона */
+
+    border: 1px solid black; /* Параметры рамки */
+    padding: 20px; /* Поля вокруг текста */
+    margin-bottom: 0px; /* Отступ снизу */
+	width:47%;
+	height:28%; 
+	 font-size: 1.1em;
+	 line-height: 20px;
+   }
+
  
  @media screen and (max-width: 936px) {
 
@@ -631,8 +664,8 @@ hr  {
 }
 
 .btn {	
-	width: 19.15%;
-	max-width: 19.15%;
+	width: 19.75%;
+	max-width: 19.75%;
 	}
 
 	#inline {
@@ -647,6 +680,19 @@ hr  {
 	 margin-left: 33.5%;
 } 
  
+
+.radius {
+    background: fff; /* Цвет фона */
+
+    border: 1px solid black; /* Параметры рамки */
+    padding: 20px; /* Поля вокруг текста */
+    margin-bottom: 0px; /* Отступ снизу */
+	width:40%;
+	height:28%; 
+	 font-size: 0.9em;
+	 line-height: 20px;
+   }
+
  
 
  @media screen and (max-width: 769px) {
@@ -690,8 +736,8 @@ nav li a {
 }
 
 .btn {	
-	width: 25.15%;
-	max-width: 25.15%;
+	width: 26.15%;
+	max-width: 26.15%;
 	}
 
 	#inline {
@@ -706,7 +752,19 @@ nav li a {
 	 margin-left: 33.5%;
 } 
  
-	
+.radius {
+    background: fff; /* Цвет фона */
+
+    border: 1px solid black; /* Параметры рамки */
+    padding: 12px; /* Поля вокруг текста */
+    margin-bottom: 0px; /* Отступ снизу */
+	width:50%;
+	height:17%; 
+	 font-size: 0.4em;
+	 line-height: 20px;
+   }
+
+ 
  
  @media screen and (max-width: 488px) {
 
@@ -776,6 +834,17 @@ nav li a {
 } 
  
  
+.radius {
+    background: fff; /* Цвет фона */
+
+    border: 1px solid black; /* Параметры рамки */
+    padding: 18px; /* Поля вокруг текста */
+    margin-bottom: 0px; /* Отступ снизу */
+	width:50%;
+	height:28%; 
+	 font-size: 0.7em;
+	 line-height: 20px;
+   } 
 
  
  
