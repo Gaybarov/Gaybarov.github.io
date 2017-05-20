@@ -919,7 +919,17 @@ nav li a {
 	 margin-left: 8.5%;
 } 
   
- 
+.radius {
+    background: fff; /* Цвет фона */
+
+    border: 1px solid black; /* Параметры рамки */
+    padding: 18px; /* Поля вокруг текста */
+    margin-bottom: 0px; /* Отступ снизу */
+	width:50%;
+	height:24%; 
+	 font-size: 0.6em;
+	 line-height: 16px;
+   } 
  
  
  
