@@ -878,11 +878,6 @@ nav li a {
 }
 
 
-.zxx {
-	width: 20%;
-	height: 20%;
-}
-
 
  
  nav ul {
@@ -936,7 +931,7 @@ nav li a {
     padding: 17px; /* Поля вокруг текста */
     margin-bottom: 0px; /* Отступ снизу */
 	width:50%;
-	height:20%; 
+	height:18%; 
 	 font-size: 0.6em;
 	 line-height: 11px;
    } 
