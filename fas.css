@@ -842,7 +842,7 @@ nav li a {
     margin-bottom: 0px; /* Отступ снизу */
 	width:50%;
 	height:28%; 
-	 font-size: 0.9em;
+	 font-size: 0.7em;
 	 line-height: 20px;
    } 
 
@@ -856,7 +856,7 @@ nav li a {
   }
   
   h1 {
-	    font-size: 1.6em;
+	    font-size: 1.5em;
 		line-height: 106%;
     height: 15%;
   }
@@ -911,6 +911,7 @@ nav li a {
 }
 .txt { 
     width: 99.898888888%;
+	height:40%;
 }
 .submit  { 
     width: 82.9305555%;
