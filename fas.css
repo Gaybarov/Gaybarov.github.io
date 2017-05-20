@@ -506,6 +506,9 @@ hr  {
 /* Классы картинок для экрана с разрешением 320px----- */ 
 .zxc {	}
 
+.zxx {  }
+
+
 
 /* SLIDENAV STYLES - fullPage.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -874,6 +877,13 @@ nav li a {
 	width: 50%;
 }
 
+
+.zxx {
+	width: 20%;
+	height: 20%;
+}
+
+
  
  nav ul {
         -webkit-box-orient: vertical;
@@ -923,12 +933,12 @@ nav li a {
     background: fff; /* Цвет фона */
 
     border: 1px solid black; /* Параметры рамки */
-    padding: 18px; /* Поля вокруг текста */
+    padding: 17px; /* Поля вокруг текста */
     margin-bottom: 0px; /* Отступ снизу */
 	width:50%;
-	height:24%; 
+	height:20%; 
 	 font-size: 0.6em;
-	 line-height: 16px;
+	 line-height: 11px;
    } 
  
  
