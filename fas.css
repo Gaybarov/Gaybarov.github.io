@@ -866,7 +866,7 @@ nav li a {
     margin-bottom: 0px; /* Отступ снизу */
 	width:50%;
 	height:18%; 
-	 font-size: 0.7em;
+	 font-size: 0.6em;
 	 line-height: 15px;
    } 
 
@@ -959,7 +959,7 @@ nav li a {
     padding: 17px; /* Поля вокруг текста */
     margin-bottom: 0px; /* Отступ снизу */
 	width:50%;
-	height:18%; 
+	height:16%; 
 	 font-size: 0.6em;
 	 line-height: 11px;
    } 
