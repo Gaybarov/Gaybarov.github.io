@@ -283,7 +283,7 @@ nav {
   box-sizing: border-box;
     background: rgba(0, 47, 77, .25);
     position: fixed;
-    top: 40px;
+    top: 70px;
     width: 100%;
   -webkit-transition: all 3s;
           transition: all 3s;
