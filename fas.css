@@ -5,12 +5,6 @@
 /* ICON STYLES - ICON FROM: http://fontastic.me/
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@font-face {
- 
-
-
- 
-}
 
 
   -webkit-font-smoothing: antialiased;
@@ -47,6 +41,7 @@
 	border-width:1px;
 	background:#7CFC00;
 	cursor:pointer;
+	margin-left:12.5%;
 
 	}
 	.btn:hover {	//Стиль кнопки при новедении на него курсора
@@ -880,7 +875,120 @@ nav li a {
 	}	
  
  
- @media screen and (max-width: 322px) {
+ 
+ @media screen and (max-width: 400px) and (max-height: 704px) {
+	 
+	 
+	html {
+    font-size: 48%;
+  }
+ 
+ nav ul {
+	 
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+nav li a {
+    font-size: 1.5em;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: background .3s;
+            transition: background .3s;
+}
+	
+    nav li {
+        margin-top: 1px;
+    }
+  
+  
+  .scroll-icon {
+    display: none;
+  }
+
+	h1 {
+	
+    line-height: 106%;
+    height: 19%;
+	font-size: 1.6em;
+}
+
+	h2 {
+	
+	font-size: 2.3em;
+}
+
+	h3 {
+	
+	font-size: 1.8em;
+}
+
+	p {
+	
+	font-size: 1.3em;
+}
+
+.zxc {
+	width: 60%;
+height: 40%;
+	
+	}
+
+
+.btn {	
+	width: 77.15%;
+	max-width: 77.15%;
+	}
+
+	#inline {
+
+    width: 85%;
+}
+.txt { 
+    width: 30.798888888%;
+}
+.submit  { 
+    width: 32.9305555%;
+	 margin-left: 33.5%;
+} 
+ 
+ 
+.radius {
+    background: fff; /* Цвет фона */
+
+    border: 1px solid black; /* Параметры рамки */
+    padding: 18px; /* Поля вокруг текста */
+    margin-bottom: 0px; /* Отступ снизу */
+	width:50%;
+	height:17%; 
+	 font-size: 0.8em;
+	 line-height: 15px;
+   } 
+
+
+    table.center {
+	 
+	margin-left:auto; margin-right:auto;
+	 width: 79%;
+	 height:0%;
+	  font-size: 0.7em;
+	}	 
+	 
+	 
+	 
+	 
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+ @media screen and (max-width: 342px) {
 
  html {
     font-size: 58%;
@@ -895,6 +1003,11 @@ nav li a {
     h2 {
 	    font-size: 2.3em;
   }
+  
+  	h3 {
+	
+	font-size: 1.4em;
+}
   
     p {
 	    font-size: 1.1em;
@@ -968,9 +1081,9 @@ nav li a {
  table.center {
 	 
 	margin-left:auto; margin-right:auto;
-	 width: 77%;
+	 width: 83%;
 	 height:0%;
-	  font-size: 0.7em;
+	  font-size: 0.5em;
 	}	
 
  
