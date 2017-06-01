@@ -1,6 +1,18 @@
 
-/* 
-?????????????????????????????????????????????????? */
+
+
+
+/* */
+
+
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
 
 
 
@@ -101,6 +113,15 @@ input.hidden{
 /* HELPER CLASSES
 ?????????????????????????????????????????????????? */
 
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
 
 .l-left {
     float: left;
@@ -108,6 +129,20 @@ input.hidden{
 
 .l-right {
     float: right;
+}
+
+.end {
+    margin-top: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    opacity: 0;
+    -webkit-transform: translateY(300px);
+        -ms-transform: translateY(300px);
+            transform: translateY(300px);
+    -webkit-transition: opacity, -webkit-transform 1s;
+            transition: opacity, transform 1s;
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
 }
 
 
@@ -286,6 +321,10 @@ nav li:nth-child(even) a:hover {
     background: #c53c52;
 }
 
+nav li.active a,
+body #menu li:last-child a {
+  background: #453659;
+}
   
 
 
