@@ -14,7 +14,18 @@
 
 
 
+.icon-up-open-big:hover:after {
+    color: white;   
+}
 
+.scroll-icon {
+	
+   
+   margin-left: 12%;
+  bottom: 11.1111111%;
+  padding: 0 10px;
+    
+}
 
 
 
